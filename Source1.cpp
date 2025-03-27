@@ -9,6 +9,7 @@ using namespace cv;
 int main() {
 	//disable cv log
 	cv::utils::logging::setLogLevel(cv::utils::logging::LogLevel::LOG_LEVEL_SILENT);
+
 	/*cout << "OpenCV version: " << CV_VERSION;*/
 	 //define the path of image  
 	/*string Imagepath = "Resources/img.png";
@@ -32,10 +33,6 @@ int main() {
 		
 	}
 	waitKey(0);*/
-
-
-
-
 	//webcame reading 
 	VideoCapture cap(0);
 	Mat frame;
